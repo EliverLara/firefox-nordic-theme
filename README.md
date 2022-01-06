@@ -65,9 +65,7 @@ git clone https://github.com/EliverLara/firefox-nordic-theme && cd firefox-nordi
 
 9. Restart Firefox.
 
-10. Open Firefox customization panel and move the new tab button to headerbar.
-
-11. Be happy with your new vibrant Firefox.
+10. Be happy with your new nordish Firefox.
 
 
 ## Uninstalling
