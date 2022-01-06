@@ -2,7 +2,7 @@
 
 ## Description
 
-A dark theme for firefox theme created using the awesome [Nord](https://github.com/arcticicestudio/nord) color palette.
+A dark theme for firefox created using the awesome [Nord](https://github.com/arcticicestudio/nord) color palette.
 
 ## Installation
 
