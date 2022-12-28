@@ -29,6 +29,7 @@ menuitem, menupopup menu {
 	-moz-appearance: none !important;
 	padding: 4px 8px !important;
 	margin: 0 !important;
+  color: var(--nordic-popover-color);
 }
 
 menuitem[type="checkbox"] image, menuitem[type="radio"] image {
