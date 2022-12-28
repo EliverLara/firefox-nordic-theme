@@ -84,8 +84,8 @@
 
 /* Fix library animation */
 #library-animatable-box  {
-    --library-button-height: 46px !important;
-    --library-icon-x: 1716px !important;
+	--library-button-height: 46px !important;
+	--library-icon-x: 1716px !important;
 	/*--library-icon-x: 1715.9833984375px !important;*/
 }
 #library-button[animate] > .toolbarbutton-icon {
@@ -109,7 +109,7 @@
 	list-style-image: url("chrome://browser/skin/settings.svg") !important;
 }
 #tracking-protection-preferences-button > .toolbarbutton-text {
-    padding-inline-end: 0 !important;
+	padding-inline-end: 0 !important;
 }
 
 /* Fix findbar buttons issues */
@@ -124,7 +124,7 @@
 
 /* Sidebar header button reset font size */
 #sidebar-header {
-    font-size: 1em !important;
+	font-size: 1em !important;
 }
 
 /* Sidebar header button arrow opacity */
@@ -134,8 +134,8 @@
 
 /* Sidebar history view */
 #viewButton {
-    margin: 0 !important;
-    margin-inline-start: 6px !important;
+	margin: 0 !important;
+	margin-inline-start: 6px !important;
 }
 
 /* Bookmarks editor buttons */
@@ -148,17 +148,17 @@ menulist {
 
 /* Firefox 108 Toolbar Button and Alignment Fixes */
 toolbar .toolbarbutton-1 {
-  width: auto;
+	width: auto;
 }
 
 #nav-bar-customization-target {
-  height: 32px;
+	height: 32px;
 }
 
 toolbaritem.toolbaritem-combined-buttons {
-  max-width: 36px;
+	max-width: 36px;
 }
 
 toolbaritem.toolbaritem-combined-buttons > toolbarbutton {
-  max-height: 32px;
+	max-height: 32px;
 }
