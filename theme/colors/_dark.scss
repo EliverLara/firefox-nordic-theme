@@ -86,6 +86,7 @@ $backdrop_sidebar_bg_color: mix($backdrop_bg_color, $backdrop_base_color, 50%);
 		--nordic-popover-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
 		--nordic-popover-button-hover-background: #{"" +$popover_hover_color};
 		--nordic-popover-separator-color: rgba(0, 0, 0, 0.1);
+		--nordic-popover-color: #{"" +$fg_color};
 
 		/* Header bar */
 		--nordic-headerbar-background: #{"" +$headerbar_color};

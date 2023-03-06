@@ -44,7 +44,8 @@ button.close,
 .permission-popup-permission-remove-button,
 #protections-popup-trackers-blocked-counter-box,
 .button.connect-device,
-#item-choose button {
+#item-choose button,
+toolbaritem.toolbaritem-combined-buttons {
 	-moz-appearance: none !important;
 	background: var(--nordic-button-background) !important;
 	box-shadow: var(--nordic-button-box-shadow) !important;
@@ -65,6 +66,7 @@ button.close,
 
 /* Buttons with margins */
 #nav-bar toolbarbutton:not(#urlbar-zoom-button):not(.subviewbutton),
+#nav-bar toolbaritem.toolbaritem-combined-buttons,
 .notification-button,
 .subviewbutton.panel-subview-footer:not(:only-of-type),
 .panel-footer button:not(:only-of-type) {
@@ -150,6 +152,7 @@ menulist,
 /* Hover buttons */
 menulist:hover,
 #nav-bar toolbarbutton:not(#urlbar-zoom-button):not(.subviewbutton):not([open]):not([disabled]):hover,
+#nav-bar toolbaritem.toolbaritem-combined-buttons toolbarbutton:not([open]):not([disabled]):hover,
 .subviewbutton.panel-subview-footer:hover,
 .panel-footer button:hover,
 #downloadsHistory:hover,
@@ -190,6 +193,7 @@ button.close:hover,
 menulist[open],
 #nav-bar toolbarbutton:not(#urlbar-zoom-button):not([disabled]):not(#hack):active,
 #nav-bar toolbarbutton:not(#urlbar-zoom-button):not([disabled])[open],
+#nav-bar toolbaritem.toolbaritem-combined-buttons toolbarbutton:not([disabled])[open],
 .subviewbutton.panel-subview-footer:active,
 .panel-footer button:active,
 #downloadsHistory:active,
@@ -231,6 +235,7 @@ button.close:active,
 
 /* Disabled buttons */
 #nav-bar toolbarbutton:not(#urlbar-zoom-button)[disabled],
+#nav-bar toolbaritem.toolbaritem-combined-buttons toolbarbutton:not(#urlbar-zoom-button)[disabled],
 #appMenu-popup .toolbaritem-combined-buttons toolbarbutton[disabled],
 #context-navigation menuitem[disabled],
 .dialog-button-box button[disabled] {
@@ -253,6 +258,7 @@ button.close:active,
 
 /* Inactive window buttons */
 #nav-bar toolbarbutton:not(#urlbar-zoom-button):not(.subviewbutton):-moz-window-inactive,
+#nav-bar toolbaritem.toolbaritem-combined-buttons toolbarbutton:-moz-window-inactive,
 .findbar-container toolbarbutton:-moz-window-inactive,
 #sidebar-switcher-target:-moz-window-inactive,
 #viewButton:-moz-window-inactive,
