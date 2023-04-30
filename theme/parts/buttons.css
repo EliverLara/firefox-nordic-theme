@@ -44,8 +44,7 @@ button.close,
 .permission-popup-permission-remove-button,
 #protections-popup-trackers-blocked-counter-box,
 .button.connect-device,
-#item-choose button,
-toolbaritem.toolbaritem-combined-buttons {
+#item-choose button{
 	-moz-appearance: none !important;
 	background: var(--nordic-button-background) !important;
 	box-shadow: var(--nordic-button-box-shadow) !important;

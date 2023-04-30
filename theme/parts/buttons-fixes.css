@@ -154,11 +154,3 @@ toolbar .toolbarbutton-1 {
 #nav-bar-customization-target {
 	height: 32px;
 }
-
-toolbaritem.toolbaritem-combined-buttons {
-	max-width: 36px;
-}
-
-toolbaritem.toolbaritem-combined-buttons > toolbarbutton {
-	max-height: 32px;
-}
