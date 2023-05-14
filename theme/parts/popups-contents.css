@@ -28,7 +28,7 @@
 
 /* Main menu */
 #appMenu-popup .panel-banner-item:after {
-	-moz-box-ordinal-group: 0;
+	order: -1;
 	margin: 0 8px 0 0 !important;
 }
 #appMenu-popup .toolbaritem-combined-buttons {

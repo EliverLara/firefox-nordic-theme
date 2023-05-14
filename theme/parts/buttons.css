@@ -60,7 +60,7 @@ button.close,
 }
 
 .subviewbutton-iconic {
-	-moz-box-pack: center !important;
+	justify-content: center !important;
 }
 
 /* Buttons with margins */
