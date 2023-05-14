@@ -33,3 +33,6 @@
 	padding: 6px !important;
 }
 
+#sidebar-switcher-target {
+  flex: unset !important;
+}
