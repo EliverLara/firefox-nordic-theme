@@ -201,7 +201,7 @@ tab[selected]:-moz-window-inactive {
 
 /* Autohide*/
 
-.tabbrowser-tab:not([selected="true"]) .tab-close-button {
+.tabbrowser-tab:not([selected]) .tab-close-button {
 	visibility: hidden;
 }
 .tabbrowser-tab:hover .tab-close-button {
@@ -222,25 +222,25 @@ tab[selected]:-moz-window-inactive {
 	background: var(--nordic-toolbar-background) !important;
 }
 /* Active tab */
-.tab-background[selected=true] {
+.tab-background[selected] {
 	background: var(--nordic-tabbar-tab-active-background) !important;
 	border-bottom: 2px solid var(--nordic-tabbar-tab-active-border-bottom-color) !important;
 }
-.tab-background[selected=true]:-moz-window-inactive {
+.tab-background[selected]:-moz-window-inactive {
 	background-color: var(--nordic-inactive-tabbar-tab-active-background) !important;
 	border-bottom-color: var(--nordic-inactive-tabbar-tab-active-border-bottom-color) !important;
 }
 
 /* Tab hover */
-:root:not(:-moz-window-inactive) .tabbrowser-tab:hover > .tab-stack > .tab-background[selected=true] {
+:root:not(:-moz-window-inactive) .tabbrowser-tab:hover > .tab-stack > .tab-background[selected] {
 	background-color: var(--nordic-tabbar-tab-active-hover-background) !important;
 }
-.tabbrowser-tab:hover > .tab-stack > .tab-background:not([selected=true]),
-#TabsToolbar[brighttext] > #tabbrowser-tabs > .tabbrowser-tab:hover > .tab-stack > .tab-background:not([selected=true]),
-#TabsToolbar[brighttext] > #tabbrowser-tabs > .tabbrowser-tab:hover > .tab-stack > .tab-background > .tab-line:not([selected=true]) {
+.tabbrowser-tab:hover > .tab-stack > .tab-background:not([selected]),
+#TabsToolbar[brighttext] > #tabbrowser-tabs > .tabbrowser-tab:hover > .tab-stack > .tab-background:not([selected]),
+#TabsToolbar[brighttext] > #tabbrowser-tabs > .tabbrowser-tab:hover > .tab-stack > .tab-background > .tab-line:not([selected]) {
 	background-color: transparent !important;
 }
-:root:not(:-moz-window-inactive) .tabbrowser-tab:hover > .tab-stack > .tab-background:not([selected=true]) {
+:root:not(:-moz-window-inactive) .tabbrowser-tab:hover > .tab-stack > .tab-background:not([selected]) {
 	background-color: var(--nordic-tabbar-tab-hover-background) !important;
 	border-image: none !important;
 	border-bottom: 3px solid var(--nordic-tabbar-tab-hover-border-bottom-color) !important;
