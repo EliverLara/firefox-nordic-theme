@@ -192,7 +192,7 @@ menupopup menu:not([disabled="true"]):is(:hover, [_moz-menuactive]),
 .subviewbutton-back {
 	opacity: 1 !important;
 	width: 100%;
-	align-content: center !important;
+	align-items: center !important;
 	justify-content: flex-start !important;
 	padding: 10px !important;
 }
