@@ -9,9 +9,10 @@
 
 /* Toolbox colors */
 #navigator-toolbox {
-	border: 0 !important;
-	background: none !important;
+	background: var(--nordic-toolbar-background) !important;
+	border-bottom: 1px solid var(--nordic-toolbar-border-color) !important;
 }
+
 
 #nav-bar, #PersonalToolbar, #toolbar-menubar, #TabsToolbar, findbar {
 	border: 0 !important;
