@@ -9,7 +9,8 @@
 }
 
 /* Headerbar CSD colors */
-:root[tabsintitlebar] #nav-bar {
+:root[tabsintitlebar] #nav-bar,
+:root[customtitlebar] #nav-bar  {
 	background: var(--nordic-headerbar-background) !important;
 	border: none !important;
 	border-bottom: 1px solid var(--nordic-headerbar-border-color) !important;
