@@ -23,15 +23,15 @@ toolbarspring {
 }
 
 #urlbar[breakout][breakout-extend] {
-  width: var(--urlbar-width);
+  width: var(--urlbar-width) !important;
 }
 #urlbar[breakout][breakout-extend][open] {
 	height: auto !important;
 	max-height: unset !important;
 }
-#urlbar #urlbar-input-container {
+#urlbar .urlbar-input-container {
 	padding: 0 !important;
-  width: 100%;
+  	width: 100%;
 }
 #urlbar[breakout][breakout-extend] #urlbar-input-container {
 	height: 30px !important;
