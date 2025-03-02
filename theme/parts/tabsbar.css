@@ -90,6 +90,7 @@ tab {
 tab:hover {
 	color: var(--nordic-tabbar-tab-hover-color) !important;
 }
+.tab-content[selected],
 tab[selected] {
 	color: var(--nordic-tabbar-tab-active-color) !important;
 }

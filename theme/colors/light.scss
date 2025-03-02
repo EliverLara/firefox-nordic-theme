@@ -1,12 +1,12 @@
 @import 'nord';
-$variant: 'light';
+$variant: 'dark';
 $accent: 'blue';
 
 // Main definitions
-$base_color: if($variant == 'light', $nord5, $nord0 );
-$text_color: if($variant == 'light', $nord1, $nord4 );
-$bg_color: if($variant == 'light', $nord4, $nord1);
-$fg_color: if($variant == 'light', $nord1, $nord4 );
+$base_color: $nord0;
+$text_color: $nord4;
+$bg_color: $nord1;
+$fg_color: $nord4;
 
 $main_dark_color: darken($nord0, 2%);
 
@@ -23,7 +23,7 @@ $slider: #7b7bbd;
 $teal: $nord14;
 
 $selected_fg_color: $nord4;
-$selected_bg_color: if($accent == 'blue', $nord7, $nord3);
+$selected_bg_color: if($accent == 'blue', $nord9, $nord7);
 $selected_borders_color: darken($selected_bg_color, 10%);
 $borders_color: darken($main_dark_color, 5%);
 $headerbar_color: mix($base_color, darken($bg_color, 8%), 30%);
@@ -60,7 +60,7 @@ $backdrop_sidebar_bg_color: mix($backdrop_bg_color, $backdrop_base_color, 50%);
  * to elements somewhere in this code. The rest of the variables are
  * built-in in Firefox, so you need to add an !important if you wanna
  * override them. */
- @media (prefers-color-scheme: dark) { 
+ @media (prefers-color-scheme: light) { 
 	 
  
 	:root {
@@ -86,7 +86,7 @@ $backdrop_sidebar_bg_color: mix($backdrop_bg_color, $backdrop_base_color, 50%);
 		--nordic-popover-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
 		--nordic-popover-button-hover-background: #{"" +$popover_hover_color};
 		--nordic-popover-separator-color: rgba(0, 0, 0, 0.1);
-        --nordic-popover-color: #{"" +$fg_color};
+		--nordic-popover-color: #{"" +$fg_color};
 
 		/* Header bar */
 		--nordic-headerbar-background: #{"" +$headerbar_color};
